@@ -1,5 +1,5 @@
 ﻿StreamReader reader = new StreamReader("names.txt");
-string line = line = reader.ReadLine();
+string line = reader.ReadLine();
 reader.Close();
 
 string[] namesArray = line.Split(",");
